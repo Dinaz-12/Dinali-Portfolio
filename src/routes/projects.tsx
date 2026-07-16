@@ -15,6 +15,13 @@ export const Route = createFileRoute("/projects")({
 
 const projects = [
   {
+    title: "Airbnb Data Engineering Dashboard",
+    desc: "Built an end-to-end data engineering pipeline using Python, DuckDB, and SQL to clean, transform, and model Airbnb data into a star schema. Developed ETL workflows, analytical SQL queries, and an interactive Power BI dashboard to deliver pricing, occupancy, and revenue insights.",
+    tags: ["Python", "DuckDB", "SQL", "SSIS", "SSAS", "Streamlit Dashboard", "Star Schema"],
+    github: "https://github.com/Dinaz-12/Airbnb-Data-Engineering",
+    live: "https://singapore-airbnb-dashboard.streamlit.app/",
+  },
+  {
     title: "Banking Data Warehouse",
     desc: "Built a data warehouse on SQL Server with a star schema. Developed SSIS ETL pipelines, SSAS OLAP cubes for drill-down/slice analysis, and Power BI dashboards for insights.",
     tags: ["SQL Server", "SSIS", "SSAS", "Power BI", "Star Schema"],
